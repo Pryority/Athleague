@@ -81,6 +81,8 @@ header {
 .logo {
   cursor: pointer;
   margin-right: auto;
+  animation: 2s ease-out 0s 1 fadeIn;
+
 }
 
 .nav_links {
