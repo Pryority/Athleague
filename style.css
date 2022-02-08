@@ -7,13 +7,28 @@
   /* background-color: rgb(27, 27, 27); */
 }
 
-li,
-button {
+li {
   font-family: "Mukta Vaani";
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
+  animation: 2s ease-out 0s 1 fadeIn;
+}
+
+button {
+  font-family: "Mukta Vaani";
+  font-weight: 500;
+  font-size: 16px;
+  color: #0f0f0f;
+  text-decoration: none;
+  animation: 2s ease-out 0s 1 fadeIn;
+  margin-left: 20px;
+}
+
+img {
+  opacity: 1;
+  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 a {
@@ -23,6 +38,7 @@ a {
   color: #edf0f1;
   text-decoration: none;
   text-align: center;
+  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 p {
@@ -32,7 +48,7 @@ p {
   color: #edf0f1;
   text-decoration: none;
   text-align: center;
-  animation: 4s ease-out 0s 1 textFadeIn;
+  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 h1 {
@@ -42,7 +58,7 @@ h1 {
   font-size: 5em;
   color: #edf0f1;
   text-decoration: none;
-  animation: 4s ease-out 0s 1 textFadeIn;
+  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 body {
@@ -54,15 +70,17 @@ body {
   background-image: url("images/trail.png");
   background-blend-mode: multiply;
 }
+
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 2.6244%;
 }
 
 .logo {
   cursor: pointer;
+  margin-right: auto;
 }
 
 .nav_links {
@@ -84,7 +102,7 @@ header {
 
 button {
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgba(188, 226, 21, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -92,7 +110,7 @@ button {
 }
 
 button:hover {
-  background-color: rgba(0, 136, 169, 0.66);
+  background-color: rgba(188, 226, 21, 0.8);
 }
 
 h1 {
@@ -117,11 +135,11 @@ p {
   }
 }
 
-@keyframes textFadeIn {
+@keyframes fadeIn {
   0% {
-    color: rgb(243, 243, 243, 0);
+    opacity: 0;
   }
   100% {
-    color: rgb(243, 243, 243, 1);
+    opacity: 1;
   }
 }
