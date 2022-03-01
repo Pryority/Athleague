@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+/* GLOBAL */
+
+button {
+  padding: 8px;
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 1000;
+  font-size: 28px;
+  color: #000;
+  background-color: green;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+button:hover {
+  background-color: rgba(188, 226, 21, 0.8);
+}
+
+/* HERO */
+.hero {
+  background-image: url("../assets/images/trail.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 5em;
+  color: #edf0f1;
+  text-decoration: none;
+  animation: 2s ease-out 0s 1 fadeIn;
+  letter-spacing: -0.05em;
+}
+
+/* NAV */
+nav {
+  margin: 0 32px 0 0;
+  text-align: right;
+  width: 100%;
+  display: flex;
+  /* margin-left: 256px; */
+}
+
+.nav-item {
+  margin: 0 auto;
+  font-family: "Mukta Vaani";
+  font-weight: 300;
+  font-size: 20px;
+  color: #edf0f1;
+  text-align: center;
+  animation: 2s ease-out 0s 1 fadeIn;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-item:hover {
+  color: #0088a9;
+}
+/* END OF NAV */
+
+.go-to-app {
+  width: 192px;
+}
+/* END OF HEADER */
+
+/* CENTRE OF HERO */
+.home-page-title {
+  text-align: center;
+  margin-top: 144px;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 5em;
+  color: #edf0f1;
+  text-decoration: none;
+  animation: 2s ease-out 0s 1 fadeIn;
+}
+
+/* BUTTONS */
+
+/* TEXT */
+
+p {
+  font-family: "Mukta Vaani";
+  font-weight: 300;
+  font-size: 24px;
+  color: #edf0f1;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px 300px;
+  line-height: 1.62em;
+  animation: 2s ease-out 0s 1 fadeIn;
+}
+
+/* END OF HERO */
+
+span {
+  width: 100%;
+}
