@@ -26,10 +26,10 @@ button div a {
 
 button a {
   font-family: "Mukta Vaani", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 28px;
   text-decoration: none;
-  color: black;
+  color: rgba(50, 56, 24, 0.8);
 }
 
 button:hover {
@@ -112,18 +112,20 @@ nav {
 /* TEXT */
 
 p {
-  font-family: "Mukta Vaani";
+  font-family: "Mukta Vaani", sans-serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 44px;
   color: #edf0f1;
   text-decoration: none;
   text-align: center;
-  margin: 0px 300px;
-  line-height: 1.62em;
 }
 
 /* END OF HERO */
 
 span {
   width: 100%;
+}
+
+.mode-description {
+  font-size: 1.62vw;
 }
