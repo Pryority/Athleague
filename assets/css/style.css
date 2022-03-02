@@ -9,36 +9,37 @@
 
 /* GLOBAL */
 
+body {
+  background-image: url("../images/trail.png");
+  background-size: cover;
+}
+
 button {
-  padding: 8px;
-  text-align: center;
+  width: 8vw;
   font-family: "Mukta Vaani", sans-serif;
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 28px;
-  color: #000;
-  background-color: green;
+  color: black;
+  background-color: rgb(116, 193, 1);
   text-decoration: none;
-  border-radius: 100px;
+  border-radius: 8px;
 }
 
 button:hover {
   background-color: rgba(188, 226, 21, 0.8);
-}
-
-/* HERO */
-.hero {
-  background-image: url("../assets/images/trail.png");
-  /* width: 100%; */
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  /* margin-bottom: 2px; */
 }
 
 /* HEADER */
 header {
   padding: 0 44px 0 44px;
   display: flex;
-  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 96px;
+  color: white;
 }
 
 .title {
@@ -48,33 +49,31 @@ header {
   font-size: 5em;
   color: #edf0f1;
   text-decoration: none;
-  animation: 2s ease-out 0s 1 fadeIn;
   letter-spacing: -0.05em;
 }
 
 /* NAV */
 nav {
   margin: 0 32px 0 0;
-  text-align: right;
+  align-items: center;
   width: 100%;
   display: flex;
-  /* margin-left: 256px; */
 }
 
 .nav-item {
+  padding: 0 8px 0 8px;
   margin: 0 auto;
   font-family: "Mukta Vaani";
   font-weight: 300;
   font-size: 20px;
   color: #edf0f1;
   text-align: center;
-  animation: 2s ease-out 0s 1 fadeIn;
   text-decoration: none;
-  transition: all 0.3s ease 0s;
 }
 
 .nav-item:hover {
-  color: #0088a9;
+  color: rgba(201, 243, 16, 0.8);
+  margin-bottom: 2px;
 }
 /* END OF NAV */
 
@@ -108,7 +107,6 @@ p {
   text-align: center;
   margin: 0px 300px;
   line-height: 1.62em;
-  animation: 2s ease-out 0s 1 fadeIn;
 }
 
 /* END OF HERO */
