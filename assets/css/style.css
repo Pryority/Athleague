@@ -107,6 +107,16 @@ nav {
   animation: 2s ease-out 0s 1 fadeIn;
 }
 
+.page-title {
+  text-align: center;
+  margin-top: 64px;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 5em;
+  color: #edf0f1;
+  text-decoration: none;
+  animation: 2s ease-out 0s 1 fadeIn;
+}
 /* BUTTONS */
 
 /* TEXT */
@@ -124,6 +134,27 @@ p {
 
 span {
   width: 100%;
+}
+
+/* GAME MODES */
+
+.game-modes article {
+  justify-content: space-around;
+}
+
+.game-mode {
+  width: 0 auto;
+  padding: 24px;
+}
+
+.mode-title {
+  margin-top: 24px;
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 5em;
+  color: #edf0f1;
+  text-decoration: none;
 }
 
 .mode-description {
