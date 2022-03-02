@@ -15,18 +15,25 @@ body {
 }
 
 button {
-  width: 8vw;
-  font-family: "Mukta Vaani", sans-serif;
-  font-weight: 800;
-  font-size: 28px;
-  color: black;
-  background-color: rgb(116, 193, 1);
-  text-decoration: none;
+  width: 30%;
+  background-color: rgb(163, 227, 26);
   border-radius: 8px;
 }
 
+button div a {
+  align-items: center;
+}
+
+button a {
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+
 button:hover {
-  background-color: rgba(188, 226, 21, 0.8);
+  background-color: rgb(167, 215, 61);
   /* margin-bottom: 2px; */
 }
 
@@ -34,11 +41,17 @@ button:hover {
 header {
   padding: 0 44px 0 44px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header a {
+.title a {
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+  font-size: 104px;
   text-decoration: none;
-  font-size: 96px;
+  letter-spacing: -0.05em;
   color: white;
 }
 
