@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 
@@ -36,9 +37,8 @@
 /* GLOBAL */
 
 body {
-  margin: 0px;
+  /* margin: 0px; */
   background-color: gray;
-  justify-content: space-between;
 }
 
 button {
@@ -179,13 +179,12 @@ nav {
   align-items: center;
   text-transform: uppercase;
   font-family: "Mukta Vaani", sans-serif;
+  font-size: 4vw;
   line-height: 5vw;
   font-weight: 500;
   color: #fff;
-  text-shadow: 0 0 7px rgb(131, 131, 131), 0 0 10px #fff, 0 0 6px #fff,
-    0 0 42px rgb(198, 231, 11), 0 0 12px rgb(197, 227, 26),
-    0 0 24px rgb(90, 120, 20), 0 0 8px rgb(163, 227, 26),
-    0 0 32px rgb(114, 152, 31);
+  text-shadow: 0 0 2px #2f3604, 0 0 42px #c5e31a, 0 0 4px #c5e31a,
+    0 0 24px rgb(90, 120, 20), 0 0 8px #c5e31a, 0 0 8px #61700b;
   /* text-shadow: 0px 0px #ff0000; */
 }
 .hero img {
