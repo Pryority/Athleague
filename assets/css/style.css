@@ -5,6 +5,34 @@
   padding: 0;
 }
 
+/* 
+.main {
+  display: block;
+  justify-content: space-between;
+} */
+
+:root {
+  --main-bg-color: white;
+  --main-text-color: black;
+  /* --blue-1: ; */
+  --divider: #b9b9b9;
+  --main-font: "Helvetica Neue";
+  --main-gradient: linear-gradient(
+    90deg,
+    rgba(31, 90, 112, 1) 0%,
+    rgba(70, 125, 171, 1) 35%,
+    rgba(81, 179, 242, 1) 100%
+  );
+  --bottom-shadow: linear-gradient(
+    90deg,
+    rgba(181, 233, 17, 1) 0%,
+    rgba(83, 83, 83, 0) 100%
+  );
+
+  --off-white: #efefef;
+  /* --top-shadow: ; */
+}
+
 /* GLOBAL */
 
 body {
@@ -110,10 +138,6 @@ nav {
 
 /* END OF HERO */
 
-span {
-  width: 100%;
-}
-
 /* GAME MODES */
 
 .game-modes article {
@@ -155,13 +179,13 @@ span {
   align-items: center;
   text-transform: uppercase;
   font-family: "Mukta Vaani", sans-serif;
-  line-height: 4vw;
+  line-height: 5vw;
   font-weight: 500;
   color: #fff;
-  text-shadow: 0 0 7px rgb(131, 131, 131), 0 0 10px #fff, 0 0 11px #fff,
-    0 0 42px rgb(198, 231, 11), 0 0 82px rgb(197, 227, 26),
-    0 0 45px rgb(90, 120, 20), 0 0 8px rgb(163, 227, 26),
-    0 0 64px rgb(114, 152, 31);
+  text-shadow: 0 0 7px rgb(131, 131, 131), 0 0 10px #fff, 0 0 6px #fff,
+    0 0 42px rgb(198, 231, 11), 0 0 12px rgb(197, 227, 26),
+    0 0 24px rgb(90, 120, 20), 0 0 8px rgb(163, 227, 26),
+    0 0 32px rgb(114, 152, 31);
   /* text-shadow: 0px 0px #ff0000; */
 }
 .hero img {
@@ -171,22 +195,27 @@ span {
 }
 
 .game-modes {
-  background-color: white;
+  /* box-shadow: 0 -8px 16px 16px #ffffff; */
+  background: #fbffde;
   display: flex;
   flex-direction: column;
   height: 400px;
 }
 
 .game-modes h3 {
-  background-color: white;
 }
-/* 
-.main {
-  display: block;
-  justify-content: space-between;
-} */
 
 .header-hero {
+  padding-bottom: 64px;
   background-image: url("../images/trail.png");
   background-position: center;
+}
+
+.hero-section {
+  /* box-shadow: 0 8px 8px 0px #cbe91162; */
+}
+
+.hl {
+  height: 24px;
+  background: linear-gradient(180deg, #cbe911 0%, rgba(255, 255, 255, 0) 100%);
 }
