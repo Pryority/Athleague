@@ -1,4 +1,8 @@
 
+// "COMPLETE CHECKPOINT" - Player enters radius of checkpoint.
+// "FINISH" - if { Player entered checkpoints the Course in consecutive order. } else { // print(currentCheckpoint)}
+// "START CIRCUIT" - If player is within proximity of the Course. Secondary implementation: Start only if course is unlocked to player.
+
 function placeCheckpoint() {
     // getTapLocation();
     // ifCheckpointAtTapLocation();
