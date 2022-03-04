@@ -2,18 +2,15 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
-  /* background-color: #000; */
 }
 
 /* GLOBAL */
 
 body {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../images/trail.png");
-  background-size: cover;
+  margin: 0px;
+  background-color: gray;
+  justify-content: space-between;
 }
 
 button {
@@ -91,7 +88,6 @@ nav {
 /* CENTRE OF HERO */
 .home-page-title {
   text-align: center;
-  margin-top: 144px;
   font-family: "Mukta Vaani", sans-serif;
   font-weight: 800;
   font-size: 5em;
@@ -122,11 +118,6 @@ span {
 
 .game-modes article {
   justify-content: space-around;
-}
-
-.game-mode {
-  width: 0 auto;
-  padding: 24px;
 }
 
 .mode-title {
@@ -163,6 +154,15 @@ span {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  font-family: "Mukta Vaani", sans-serif;
+  line-height: 4vw;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 0 7px rgb(131, 131, 131), 0 0 10px #fff, 0 0 11px #fff,
+    0 0 42px rgb(198, 231, 11), 0 0 82px rgb(197, 227, 26),
+    0 0 45px rgb(90, 120, 20), 0 0 8px rgb(163, 227, 26),
+    0 0 64px rgb(114, 152, 31);
+  /* text-shadow: 0px 0px #ff0000; */
 }
 .hero img {
   height: 590px;
@@ -170,9 +170,23 @@ span {
   border: 4px #edf0f1 solid;
 }
 
-footer {
-  padding: 32px;
+.game-modes {
+  background-color: white;
   display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.game-modes h3 {
+  background-color: white;
+}
+/* 
+.main {
+  display: block;
   justify-content: space-between;
-  background-color: var(--);
+} */
+
+.header-hero {
+  background-image: url("../images/trail.png");
+  background-position: center;
 }
