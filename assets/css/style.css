@@ -172,12 +172,12 @@ nav {
     0 0 24px rgb(90, 120, 20), 0 0 8px #c5e31a, 0 0 8px #61700b; */
   /* text-shadow: 0px 0px #ff0000; */
 }
-.hero img {
+/* .hero img {
   height: 590px;
   width: 590px;
   border: 4px #edf0f1 solid;
   margin-top: 32px;
-}
+} */
 
 .game-modes {
   /* box-shadow: 0 -8px 16px 16px #ffffff; */
@@ -227,9 +227,7 @@ nav {
 }
 
 .demo img {
-  /* padding: 8px; */
   height: 16vw;
-  /* border: 4px #ffffff solid; */
   border: #ffffff 12px solid;
   border-radius: 4px;
 }
@@ -280,4 +278,11 @@ nav {
   font-family: "Mukta Vaani", sans-serif;
   font-size: 32px;
   color: #ffffff;
+}
+
+.demo img.swap {
+  height: 16vw;
+  border: #ffffff 12px solid;
+  border-radius: 4px;
+  transition-delay: 250ms;
 }
