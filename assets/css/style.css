@@ -80,6 +80,8 @@ h1 a {
   text-decoration: none;
   letter-spacing: -0.05em;
   color: white;
+  text-shadow: 0 0 2px #2f3604, 0 0 42px #c5e31a, 0 0 4px #c5e31a,
+    0 0 24px rgb(90, 120, 20), 0 0 8px #c5e31a, 0 0 8px #61700b;
 }
 
 /* NAV */
@@ -106,35 +108,10 @@ nav {
   color: rgba(201, 243, 16, 0.8);
   margin-bottom: 2px;
 }
-/* END OF NAV */
 
 .go-to-app {
   width: 192px;
 }
-/* END OF HEADER */
-
-/* CENTRE OF HERO */
-.home-page-title {
-  text-align: center;
-  font-family: "Mukta Vaani", sans-serif;
-  font-weight: 800;
-  font-size: 5em;
-  color: #edf0f1;
-  text-decoration: none;
-  animation: 2s ease-out 0s 1 fadeIn;
-}
-
-.page-title {
-  text-align: center;
-  margin-top: 64px;
-  font-family: "Mukta Vaani", sans-serif;
-  font-weight: 800;
-  font-size: 5em;
-  color: #edf0f1;
-  text-decoration: none;
-  animation: 2s ease-out 0s 1 fadeIn;
-}
-/* BUTTONS */
 
 /* END OF HERO */
 
@@ -167,30 +144,39 @@ nav {
   text-align: center;
   flex: wrap;
 }
-
+/* 
 .hero {
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.hero h2 {
+.hero-section {
   display: flex;
   align-items: center;
-  text-transform: uppercase;
+  justify-content: center;
+  height: 900px;
+}
+
+.hero-section h2 {
+  text-align: center;
   font-family: "Mukta Vaani", sans-serif;
   font-size: 4vw;
   line-height: 5vw;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
-  text-shadow: 0 0 2px #2f3604, 0 0 42px #c5e31a, 0 0 4px #c5e31a,
-    0 0 24px rgb(90, 120, 20), 0 0 8px #c5e31a, 0 0 8px #61700b;
+  text-shadow: 4px 2px #00000062;
+
+  /* text-shadow: 0 0 2px #2f3604, 0 0 42px #c5e31a, 0 0 4px #c5e31a,
+    0 0 24px rgb(90, 120, 20), 0 0 8px #c5e31a, 0 0 8px #61700b; */
   /* text-shadow: 0px 0px #ff0000; */
 }
 .hero img {
   height: 590px;
   width: 590px;
   border: 4px #edf0f1 solid;
+  margin-top: 32px;
 }
 
 .game-modes {
@@ -200,21 +186,98 @@ nav {
   flex-direction: column;
   height: 400px;
 }
-
+/* 
 .game-modes h3 {
-}
+} */
 
 .header-hero {
   padding-bottom: 64px;
   background-image: url("../images/trail.png");
-  background-position: center;
-}
-
-.hero-section {
-  /* box-shadow: 0 8px 8px 0px #cbe91162; */
+  background-size: cover;
 }
 
 .hl {
   height: 24px;
   background: linear-gradient(180deg, #cbe911 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* COURSE DEMO */
+.course-demo {
+  padding: 0 12vw 80px 12vw;
+  background: linear-gradient(
+    180deg,
+    rgba(203, 233, 17, 1) 0%,
+    rgb(154, 197, 34) 100%
+  );
+}
+
+.course-demo h3 {
+  padding-top: 64px;
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 64px;
+  color: #ffffff;
+  text-shadow: 4px 2px #00000062;
+}
+
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.demo img {
+  /* padding: 8px; */
+  height: 16vw;
+  /* border: 4px #ffffff solid; */
+  border: #ffffff 12px solid;
+  border-radius: 4px;
+}
+
+.demo h4 {
+  padding: 0 64px;
+  font-size: 144px;
+  font-family: "Mukta Vaani", sans-serif;
+  color: #ffffff;
+}
+
+.demo-img {
+  padding: 0 72px 0 0;
+}
+/* STEP */
+.step {
+  display: flex;
+  padding: 32px;
+  width: 100%;
+  align-items: center;
+  background-color: #00000062;
+  border-radius: 16px;
+  border: #ffffff 1.62px solid;
+}
+
+.step div {
+  display: flex;
+}
+
+.step p {
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.162;
+}
+
+.divider {
+  border-top: 1.62px solid #ffffff;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+}
+
+.note h5 {
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 32px;
+  color: #ffffff;
 }
