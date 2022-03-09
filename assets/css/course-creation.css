@@ -70,13 +70,11 @@ button {
 
 button div {
   align-items: center;
-}
-
-button div a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: white;
+  text-decoration: none;
 }
 
 button:hover {
@@ -117,4 +115,16 @@ p {
 
 span {
   width: 100%;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
